@@ -1,6 +1,5 @@
 ﻿using Autofac;
 using MyConsoleApp1;
-using MyDemoLibrary;
 using System;
 
 namespace ConsoleApp1
