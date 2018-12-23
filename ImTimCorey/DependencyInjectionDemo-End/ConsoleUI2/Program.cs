@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using System;
 
-namespace ConsoleUI
+namespace NinjectConsoleUI
 {
     class Program
     {

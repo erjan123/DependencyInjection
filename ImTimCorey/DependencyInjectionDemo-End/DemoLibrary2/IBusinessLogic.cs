@@ -1,4 +1,4 @@
-﻿namespace DemoLibrary
+﻿namespace NinjectDemoLibrary
 {
     public interface IBusinessLogic
     {

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{4CBFC8DC-0DFF-4972-89D1-E685A55F2276}"
 EndProject
@@ -42,6 +42,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyConsoleApp1", "ImTimCorey\DependencyInjectionMyWork\MyConsoleApp1\MyConsoleApp1.csproj", "{BB04BE0D-8C75-455E-B9E4-ED6DF8709D88}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFacDemoLibrary", "AutoFacMain\AutoFac\AutoFacDemoLibrary\AutoFacDemoLibrary.csproj", "{5429DDD6-AD84-49A6-949B-F9FA6B716718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjectConsole", "NInjectMain\NInject\ConsoleUI\NinjectConsole.csproj", "{96BB28DC-80EE-4E25-972A-790893A93E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjectDemoLibrary", "NInjectMain\NInject\DemoLibrary\NinjectDemoLibrary.csproj", "{F13D4F13-AB49-4444-B290-F11D2FA22277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +93,14 @@ Global
 		{5429DDD6-AD84-49A6-949B-F9FA6B716718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5429DDD6-AD84-49A6-949B-F9FA6B716718}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5429DDD6-AD84-49A6-949B-F9FA6B716718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BB28DC-80EE-4E25-972A-790893A93E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BB28DC-80EE-4E25-972A-790893A93E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BB28DC-80EE-4E25-972A-790893A93E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BB28DC-80EE-4E25-972A-790893A93E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13D4F13-AB49-4444-B290-F11D2FA22277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13D4F13-AB49-4444-B290-F11D2FA22277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13D4F13-AB49-4444-B290-F11D2FA22277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13D4F13-AB49-4444-B290-F11D2FA22277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +118,8 @@ Global
 		{BD274218-6C92-4D33-B186-4E05167F7919} = {763C254C-8A51-45DB-8801-03A7B010E942}
 		{BB04BE0D-8C75-455E-B9E4-ED6DF8709D88} = {763C254C-8A51-45DB-8801-03A7B010E942}
 		{5429DDD6-AD84-49A6-949B-F9FA6B716718} = {DC21DB32-A259-4623-BE6B-AF926A83138F}
+		{96BB28DC-80EE-4E25-972A-790893A93E43} = {CB50C050-8F6C-41A0-A74B-34020AAF1307}
+		{F13D4F13-AB49-4444-B290-F11D2FA22277} = {CB50C050-8F6C-41A0-A74B-34020AAF1307}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44A0D74E-E00F-4DD6-A653-309274ADE7EB}

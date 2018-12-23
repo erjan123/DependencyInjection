@@ -1,20 +1,25 @@
-﻿using DemoLibrary.Utilities;
+﻿using NinjectDemoLibrary.Utilities;
 using System;
 
-namespace DemoLibrary
+namespace NinjectDemoLibrary
 {
-    public class BusinessLogic
+    public class BusinessLogic : IBusinessLogic
     {
+        ILogger _logger;
+        IDataAccess _dataAccess;
+
+        public BusinessLogic(ILogger logger, IDataAccess dataAccess)
+        {
+            _logger = logger;
+            _dataAccess = dataAccess;
+        }
         public void ProcessData()
         {
-            Logger logger = new Logger();
-            DataAccess dataAccess = new DataAccess();
-
-            logger.Log("Starting the processing of data.");
-            Console.WriteLine("Processing the data");
-            dataAccess.LoadData();
-            dataAccess.SaveData("ProcessedInfo");
-            logger.Log("Finished processing of the data.");
+            _logger.Log("Ninject - Starting the processing of data.");
+            Console.WriteLine("Ninject - Processing the data");
+            _dataAccess.LoadData();
+            _dataAccess.SaveData("Ninject - ProcessedInfo");
+            _logger.Log("Ninject - Finished processing of the data.");
         }
     }
 }

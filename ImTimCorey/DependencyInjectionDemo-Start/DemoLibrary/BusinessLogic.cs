@@ -1,7 +1,7 @@
-﻿using DemoLibrary.Utilities;
+﻿using NinjectDemoLibrary.Utilities;
 using System;
 
-namespace DemoLibrary
+namespace NinjectDemoLibrary
 {
     public class BusinessLogic
     {

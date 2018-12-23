@@ -1,9 +1,9 @@
 ﻿using Autofac;
-using DemoLibrary;
+using NinjectDemoLibrary;
 using System.Linq;
 using System.Reflection;
 
-namespace ConsoleUI
+namespace NinjectConsoleUI
 {
     public static class ContainerConfig
     {
@@ -14,7 +14,7 @@ namespace ConsoleUI
             builder.RegisterType<Application>().As<IApplication>();
             builder.RegisterType<BetterBusinessLogic>().As<IBusinessLogic>();
 
-            builder.RegisterAssemblyTypes(Assembly.Load(nameof(DemoLibrary)))
+            builder.RegisterAssemblyTypes(Assembly.Load(nameof(NinjectDemoLibrary)))
                 .Where(t => t.Namespace.Contains("Utilities"))
                 .As(t => t.GetInterfaces().FirstOrDefault(i => i.Name == "I" + t.Name));
 

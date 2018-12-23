@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DemoLibrary.Utilities
+namespace NinjectDemoLibrary.Utilities
 {
     public class DataAccess : IDataAccess
     {

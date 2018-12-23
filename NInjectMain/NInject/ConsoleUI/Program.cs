@@ -1,15 +1,21 @@
-﻿using DemoLibrary;
+﻿using Ninject;
+using NinjectConsoleUI;
+using NinjectDemoLibrary;
 using System;
+using System.Reflection;
 
-namespace ConsoleUI
+namespace NinjectConsoleUI
 {
     class Program
     {
         static void Main(string[] args)
         {
-            BusinessLogic businessLogic = new BusinessLogic();
+            var kernel = new StandardKernel();
 
-            businessLogic.ProcessData();
+            kernel.Load(Assembly.GetExecutingAssembly());
+
+            var app = kernel.Get<IBusinessLogicWrapper>();
+            app.ProcessData();
 
             Console.ReadLine();
         }

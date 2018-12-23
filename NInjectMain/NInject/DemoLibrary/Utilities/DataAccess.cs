@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace DemoLibrary.Utilities
+namespace NinjectDemoLibrary.Utilities
 {
-    public class DataAccess
+    public class DataAccess : IDataAccess
     {
         public void LoadData()
         {

@@ -1,7 +1,7 @@
-﻿using DemoLibrary;
+﻿using NinjectDemoLibrary;
 using System;
 
-namespace ConsoleUI
+namespace NinjectConsoleUI
 {
     class Program
     {

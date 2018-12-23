@@ -1,4 +1,4 @@
-﻿namespace DemoLibrary.Utilities
+﻿namespace NinjectDemoLibrary.Utilities
 {
     public interface IDataAccess
     {

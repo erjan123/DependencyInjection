@@ -1,4 +1,4 @@
-﻿namespace ConsoleUI
+﻿namespace NinjectConsoleUI
 {
     public interface IApplication
     {

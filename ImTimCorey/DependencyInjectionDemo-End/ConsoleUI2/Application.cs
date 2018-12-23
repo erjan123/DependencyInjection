@@ -1,6 +1,6 @@
-﻿using DemoLibrary;
+﻿using NinjectDemoLibrary;
 
-namespace ConsoleUI
+namespace NinjectConsoleUI
 {
     public class Application : IApplication
     {
