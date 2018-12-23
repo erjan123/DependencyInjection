@@ -5,13 +5,15 @@ namespace CastleWindsorDemoLibrary
 {
     public class BusinessLogic : IBusinessLogic
     {
-        ILogger _logger;
-        IDataAccess _dataAccess;
+        private ILogger _logger;
+        private IDataAccess _dataAccess;
+
         public BusinessLogic(ILogger logger, IDataAccess dataAccess)
         {
             _logger = logger;
             _dataAccess = dataAccess;
         }
+
         public void ProcessData()
         {
             _logger.Log("CastleWindsor - Starting the processing of data.");

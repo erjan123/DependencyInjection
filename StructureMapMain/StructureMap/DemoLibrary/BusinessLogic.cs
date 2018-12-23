@@ -10,11 +10,11 @@ namespace StructureMapDemoLibrary
             Logger logger = new Logger();
             DataAccess dataAccess = new DataAccess();
 
-            logger.Log("Starting the processing of data.");
-            Console.WriteLine("Processing the data");
+            logger.Log("StructureMap - Starting the processing of data.");
+            Console.WriteLine("StructureMap - Processing the data");
             dataAccess.LoadData();
-            dataAccess.SaveData("ProcessedInfo");
-            logger.Log("Finished processing of the data.");
+            dataAccess.SaveData("StructureMap - ProcessedInfo");
+            logger.Log("StructureMap - Finished processing of the data.");
         }
     }
 }

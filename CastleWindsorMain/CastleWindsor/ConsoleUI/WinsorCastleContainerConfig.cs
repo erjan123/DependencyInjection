@@ -2,11 +2,6 @@
 using Castle.Windsor;
 using CastleWindsorDemoLibrary;
 using CastleWindsorDemoLibrary.Utilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CastleWindsorConsoleUI
 {
