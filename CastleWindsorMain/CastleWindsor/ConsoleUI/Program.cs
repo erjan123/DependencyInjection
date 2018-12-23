@@ -1,7 +1,7 @@
-﻿using DemoLibrary;
+﻿using CastleWindsorDemoLibrary;
 using System;
 
-namespace ConsoleUI
+namespace CastleWindsorDemoLibrary
 {
     class Program
     {

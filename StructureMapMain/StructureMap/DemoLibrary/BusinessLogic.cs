@@ -1,7 +1,7 @@
-﻿using DemoLibrary.Utilities;
+﻿using StructureMapDemoLibrary.Utilities;
 using System;
 
-namespace DemoLibrary
+namespace StructureMapDemoLibrary
 {
     public class BusinessLogic
     {

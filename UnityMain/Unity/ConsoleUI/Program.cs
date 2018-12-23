@@ -1,9 +1,7 @@
-﻿using UnityDemoLibrary;
-using System;
-using UnityConsoleUI;
+﻿using System;
 using Unity;
 
-namespace ConsoleUI
+namespace UnityConsoleUI
 {
     class Program
     {

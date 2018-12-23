@@ -1,7 +1,7 @@
-﻿using DemoLibrary;
+﻿using StructureMapDemoLibrary;
 using System;
 
-namespace ConsoleUI
+namespace StructureMapDemoLibrary
 {
     class Program
     {

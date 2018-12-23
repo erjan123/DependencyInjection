@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DemoLibrary.Utilities
+namespace StructureMapDemoLibrary.Utilities
 {
     public class Logger
     {

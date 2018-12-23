@@ -1,7 +1,7 @@
-﻿using DemoLibrary.Utilities;
+﻿using CastleWindsorDemoLibrary.Utilities;
 using System;
 
-namespace DemoLibrary
+namespace CastleWindsorDemoLibrary
 {
     public class BusinessLogic
     {

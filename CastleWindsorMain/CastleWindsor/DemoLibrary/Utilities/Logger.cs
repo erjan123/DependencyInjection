@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DemoLibrary.Utilities
+namespace CastleWindsorDemoLibrary.Utilities
 {
     public class Logger
     {
