@@ -3,7 +3,7 @@ using System;
 
 namespace StructureMapDemoLibrary
 {
-    public class BusinessLogic
+    public class BusinessLogic : IBusinessLogic
     {
         public void ProcessData()
         {

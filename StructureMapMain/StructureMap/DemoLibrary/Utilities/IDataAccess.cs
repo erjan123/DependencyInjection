@@ -1,4 +1,4 @@
-﻿namespace DemoLibrary.Utilities
+﻿namespace StructureMapDemoLibrary.Utilities
 {
     public interface IDataAccess
     {

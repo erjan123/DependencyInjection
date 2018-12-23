@@ -1,4 +1,4 @@
-﻿namespace DemoLibrary
+﻿namespace StructureMapDemoLibrary
 {
     public interface IBusinessLogic
     {

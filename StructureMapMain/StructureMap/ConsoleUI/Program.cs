@@ -1,4 +1,5 @@
-﻿using StructureMapDemoLibrary;
+﻿using StructureMapConsoleUI;
+using StructureMapDemoLibrary;
 using System;
 
 namespace StructureMapDemoLibrary
@@ -7,10 +8,10 @@ namespace StructureMapDemoLibrary
     {
         static void Main(string[] args)
         {
-            BusinessLogic businessLogic = new BusinessLogic();
-
-            businessLogic.ProcessData();
-
+            var businessLogic = StructureMapContainerConfig.InitIoC();
+            var app = businessLogic.GetInstance<IBusinessLogicWrapper>();
+            app.ProcessData();
+            
             Console.ReadLine();
         }
     }
