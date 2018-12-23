@@ -1,4 +1,4 @@
-﻿namespace DemoLibrary
+﻿namespace CastleWindsorDemoLibrary
 {
     public interface IBusinessLogic
     {

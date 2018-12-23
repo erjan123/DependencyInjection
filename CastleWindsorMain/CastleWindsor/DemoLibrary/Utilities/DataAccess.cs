@@ -2,7 +2,7 @@
 
 namespace CastleWindsorDemoLibrary.Utilities
 {
-    public class DataAccess
+    public class DataAccess : IDataAccess
     {
         public void LoadData()
         {

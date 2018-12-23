@@ -1,4 +1,6 @@
-﻿using CastleWindsorDemoLibrary;
+﻿using CastleWindsorConsoleUI;
+using CastleWindsorDemoLibrary;
+using CastleWindsorDemoLibrary.Utilities;
 using System;
 
 namespace CastleWindsorDemoLibrary
@@ -7,10 +9,11 @@ namespace CastleWindsorDemoLibrary
     {
         static void Main(string[] args)
         {
-            BusinessLogic businessLogic = new BusinessLogic();
+            var businessLogic = WinsorCastleContainerConfig.Register();
 
-            businessLogic.ProcessData();
-
+            var app = businessLogic.Resolve<IBusinessLogicWrapper>();
+            app.ProcessData();
+            
             Console.ReadLine();
         }
     }

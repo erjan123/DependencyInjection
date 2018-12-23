@@ -1,4 +1,4 @@
-﻿namespace DemoLibrary.Utilities
+﻿namespace CastleWindsorDemoLibrary.Utilities
 {
     public interface IDataAccess
     {
