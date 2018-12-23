@@ -1,4 +1,4 @@
-﻿namespace DemoLibrary
+﻿namespace UnityDemoLibrary
 {
     public interface IBusinessLogic
     {

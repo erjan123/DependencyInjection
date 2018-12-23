@@ -1,20 +1,29 @@
-﻿using DemoLibrary.Utilities;
+﻿using UnityDemoLibrary.Utilities;
 using System;
 
-namespace DemoLibrary
+namespace UnityDemoLibrary
 {
-    public class BusinessLogic
+    public class BusinessLogic : IBusinessLogic
     {
+        ILogger _logger;
+        IDataAccess _dataAccess;
+
+        public BusinessLogic(ILogger logger, IDataAccess dataAccess)
+        {
+            _logger = logger;
+            _dataAccess = dataAccess;
+
+        }
         public void ProcessData()
         {
             Logger logger = new Logger();
             DataAccess dataAccess = new DataAccess();
 
-            logger.Log("Starting the processing of data.");
-            Console.WriteLine("Processing the data");
+            logger.Log("Unity - Starting the processing of data.");
+            Console.WriteLine("Unity - Processing the data");
             dataAccess.LoadData();
-            dataAccess.SaveData("ProcessedInfo");
-            logger.Log("Finished processing of the data.");
+            dataAccess.SaveData("Unity - ProcessedInfo");
+            logger.Log("Unity - Finished processing of the data.");
         }
     }
 }

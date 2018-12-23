@@ -1,5 +1,7 @@
-﻿using DemoLibrary;
+﻿using UnityDemoLibrary;
 using System;
+using UnityConsoleUI;
+using Unity;
 
 namespace ConsoleUI
 {
@@ -7,8 +9,9 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            BusinessLogic businessLogic = new BusinessLogic();
+            var container = UnityContainerConfig.RegisterComponents();
 
+            IBusinessLogicWrapper businessLogic = container.Resolve<IBusinessLogicWrapper>();
             businessLogic.ProcessData();
 
             Console.ReadLine();

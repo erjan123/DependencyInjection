@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace DemoLibrary.Utilities
+namespace UnityDemoLibrary.Utilities
 {
-    public class Logger
+    public class Logger : ILogger
     {
         public void Log(string message)
         {

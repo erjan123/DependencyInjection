@@ -1,4 +1,4 @@
-﻿namespace DemoLibrary.Utilities
+﻿namespace UnityDemoLibrary.Utilities
 {
     public interface ILogger
     {
