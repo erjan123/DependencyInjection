@@ -13,4 +13,8 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AutoFacSetup\AutoFacTestProject.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,7 @@
 ﻿using System;
+using Autofac;
+using AutoFacDemoLibrary;
+using AutoFacTestProject;
 
 namespace AutoFacSetup
 {
@@ -6,7 +9,15 @@ namespace AutoFacSetup
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var autoFacContainer = AutoFacContainerConfig.Configure();
+
+            using (var scope = autoFacContainer.BeginLifetimeScope())
+            {
+                var app = scope.Resolve<IApplication>();
+                app.Run();
+            }
+
+            Console.ReadLine();
         }
     }
 }

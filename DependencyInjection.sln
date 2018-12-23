@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28407.52
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{4CBFC8DC-0DFF-4972-89D1-E685A55F2276}"
 EndProject
@@ -31,7 +31,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.MEF", "6.MEF", "{D08EC3B7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.AutoFac", "1.AutoFac", "{DC21DB32-A259-4623-BE6B-AF926A83138F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFacSetup", "AutoFacMain\AutoFacSetup\AutoFacSetup.csproj", "{EA1DF149-197C-48A9-A374-59F83DDADB20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFacTestProject", "AutoFacMain\AutoFacSetup\AutoFacTestProject.csproj", "{EA1DF149-197C-48A9-A374-59F83DDADB20}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitAutoFacTest", "AutoFacMain\AutoFacTest\NUnitAutoFacTest.csproj", "{A9A93DDA-F137-4BB4-ABF7-E28A48D4E8FC}"
 EndProject
@@ -40,6 +40,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDemoLibrary", "ImTimCorey\DependencyInjectionMyWork\MyDemoLibrary\MyDemoLibrary.csproj", "{BD274218-6C92-4D33-B186-4E05167F7919}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyConsoleApp1", "ImTimCorey\DependencyInjectionMyWork\MyConsoleApp1\MyConsoleApp1.csproj", "{BB04BE0D-8C75-455E-B9E4-ED6DF8709D88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFacDemoLibrary", "AutoFacMain\AutoFac\AutoFacDemoLibrary\AutoFacDemoLibrary.csproj", "{5429DDD6-AD84-49A6-949B-F9FA6B716718}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{BB04BE0D-8C75-455E-B9E4-ED6DF8709D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB04BE0D-8C75-455E-B9E4-ED6DF8709D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB04BE0D-8C75-455E-B9E4-ED6DF8709D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5429DDD6-AD84-49A6-949B-F9FA6B716718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5429DDD6-AD84-49A6-949B-F9FA6B716718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5429DDD6-AD84-49A6-949B-F9FA6B716718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5429DDD6-AD84-49A6-949B-F9FA6B716718}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +105,7 @@ Global
 		{763C254C-8A51-45DB-8801-03A7B010E942} = {7E0950B8-4830-4528-A398-D6591E8CB37F}
 		{BD274218-6C92-4D33-B186-4E05167F7919} = {763C254C-8A51-45DB-8801-03A7B010E942}
 		{BB04BE0D-8C75-455E-B9E4-ED6DF8709D88} = {763C254C-8A51-45DB-8801-03A7B010E942}
+		{5429DDD6-AD84-49A6-949B-F9FA6B716718} = {DC21DB32-A259-4623-BE6B-AF926A83138F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44A0D74E-E00F-4DD6-A653-309274ADE7EB}
